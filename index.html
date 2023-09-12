@@ -1,40 +1,206 @@
-<html>
-  <head>
-    <title>Landing Page</title>
-    <style>
-      body {
-        background-image: radial-gradient(circle at center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%), url('https://images.pexels.com/photos/460621/pexels-photo-460621.jpeg');
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-      .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
-      }
-      .title {
-        text-align: center;
-        font-size: 48px;
-        font-weight: bold;
-        color: white;
-        text-shadow: 2px 2px 20px #000000;
-      }
-      .subtitle {
-        text-align: center;
-        font-size: 24px;
-        color: white;
-        text-shadow: 2px 2px 4px #000000;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <div class="title">Github Pages Landing</div>
-      <div class="subtitle">Thank you for visiting</div>
-    </div>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Modern Business - Start Bootstrap Template</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="index.html">Rafi Hakimi</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">Tentang</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Kontak</a></li>
+                            <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projek</a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
+                                    <li><a class="dropdown-item" href="https://rafihakimi.github.io/sigweb/">Sistem Informasi Geografis Berbasis Web</a></li>
+                                    <li><a class="dropdown-item" href="blog-post.html">Personal Projek</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Header-->
+            <header class="bg-dark py-5">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-5 fw-bolder text-white mb-2">Muhammad Rafi Hakimi</h1>
+                                <p class="lead fw-normal text-white-50 mb-4">Saya seorang Mahasiswa di Universitas Gadjah Mada pada Program Studi Sarjana Teknik Geodesi Fakultas Teknik angkatan 2021</p>
+                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                                    <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Tentang Saya</a>
+                                    <a class="btn btn-outline-light btn-lg px-4" href="#peng">Pengalaman</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-9" src="https://media.licdn.com/dms/image/C5603AQFXPALZxFbvQQ/profile-displayphoto-shrink_800_800/0/1631940410850?e=2147483647&v=beta&t=JItDIkT8BG4eqEe_Usk-JFwHN513JoSWQ7hJPiR00Ic"  alt="..." /></div>
+                    </div>
+                </div>
+            </header>
+            <!-- Features section-->
+            <section class="py-5" id="features">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5">
+                        <div class="col-lg-4 mb-5 mb-lg-0"><h2 class="fw-bolder mb-0">Tentang Saya</h2></div>
+                        <div class="col-lg-8">
+                            <div class="row gx-5 row-cols-1 row-cols-md-2">
+                                <div class="col mb-5 h-100">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-collection"></i></div>
+                                    <h2 class="h5">Nama Lengkap</h2>
+                                    <p class="mb-0">Muhammad Rafi Hakimi</p>
+                                </div>
+                                <div class="col mb-5 h-100">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
+                                    <h2 class="h5">Domisili</h2>
+                                    <p class="mb-0">Sleman, Daerah Istimewa Yogyakarta, Indonesia</p>
+                                </div>
+                                <div class="col mb-5 mb-md-0 h-100">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
+                                    <h2 class="h5">Karakter</h2>
+                                    <p class="mb-0">Saya orang yang memegang ajaran teguh agama Islam dan nilai-nilai integritas. Tanggung jawab dan kejujuran adalah hal yang saya tanamkan pada diri saya dimanapun dan kapanpun saya berada.</p>
+                                </div>
+                                <div class="col h-100">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
+                                    <h2 class="h5">Hobi</h2>
+                                    <p class="mb-0"> Jogging, berenang dan bulu tangkis adalah hobi saya.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Testimonial section-->
+            <div class="py-5 bg-light">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-10 col-xl-7">
+                            <div class="text-center">
+                                <div class="fs-4 mb-4 fst-italic">"Kita belajar dari kesalahan, namun usahakan bukan kesalahan yang besar"</div>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
+                                    <div class="fw-bold">
+                                        Rafi Hakimi
+                                        <span class="fw-bold text-primary mx-1">/</span>
+                                        Hamba Allah
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Blog preview section-->
+            <section class="py-5">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-8 col-xl-6">
+                            <div class="text-center">
+                                <h2 class="fw-bolder" id="peng">Pengalaman</h2>
+                                <p class="lead fw-normal text-muted mb-5">Saya orang yang aktif dan mudah bersosialisasi dengan orang lain. Saya juga orang yang suka melakukan hal baru.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row gx-5">
+                        <div class="col-lg-4 mb-5">
+                            <div class="card h-100 shadow border-0">
+                                <img class="card-img-top" src="data:image/jpeg;base64,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" alt="..." />
+                                <div class="card-body p-4">
+                                    <div class="badge bg-primary bg-gradient rounded-pill mb-2">Internship</div>
+                                    <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">PT Waindo Specterra</h5></a>
+                                    <p class="card-text mb-0">Membuat virtual environment model  reruntuhan Kerajaan Majapahit menggunakan Unreal Engine 5</p>
+                                </div>
+                                <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                                    <div class="d-flex align-items-end justify-content-between">
+                                        <div class="d-flex align-items-center">
+                                            <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
+                                            <div class="small">
+                                                <div class="text-muted">Januari 2023</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-5">
+                            <div class="card h-100 shadow border-0">
+                                <img class="card-img-top" src="https://sobat.ft.ugm.ac.id/wp-content/uploads/sites/1257/2020/08/Logo-KMTG_Transparan-510x510.png" alt="..." />
+                                <div class="card-body p-4">
+                                    <div class="badge bg-primary bg-gradient rounded-pill mb-2">Organisasi</div>
+                                    <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Keluarga Mahasiswa Teknik Geodesi (KMTG)</h5></a>
+                                    <p class="card-text mb-0">Menjadi Sekretaris Jendral KMTG Periode 2023</p>
+                                </div>
+                                <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                                    <div class="d-flex align-items-end justify-content-between">
+                                        <div class="d-flex align-items-center">
+                                            <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
+                                            <div class="small">
+                                                <div class="text-muted">Tahun 2023</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-5">
+                            <div class="card h-100 shadow border-0">
+                                <img class="card-img-top" src="https://sobat.ft.ugm.ac.id/wp-content/uploads/sites/1257/2020/08/Logo-KMTG_Transparan-510x510.png" alt="..." />
+                                <div class="card-body p-4">
+                                    <div class="badge bg-primary bg-gradient rounded-pill mb-2">Event</div>
+                                    <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Geodetic Initiation and Development Skill (GEOID)</h5></a>
+                                    <p class="card-text mb-0">Diamanahi menjadi Steering Commitee GEOID 2023</p>
+                                </div>
+                                <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                                    <div class="d-flex align-items-end justify-content-between">
+                                        <div class="d-flex align-items-center">
+                                            <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
+                                            <div class="small">
+                                                <div class="text-muted">September, 2023 </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Muhammad Rafi Hakimi 2023. a fork of Modern Business by Start Bootstrap </div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
